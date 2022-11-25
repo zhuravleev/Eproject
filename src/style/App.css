@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    /* color: #37474F; */
+    /* color: #546E7A; */
+    color: #78909C;
+    /* color: #B0BEC5; */
+}
+
+h1{
+    color: #37474F;;
+    font-size: 24px;
+}
+
+h3{
+    color: #546E7A;
+    font-size: 16px;
+}
+
+h3{
+    color: #546E7A;
+    font-size: 16px;
+}
+
+.clients__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+    border: 2px solid #37474F;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.client__ul li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.client__ul h3{
+    margin-right: 15px;
+}
+
+.btn__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.createModal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search__container{
+    display: flex;
+    flex-direction: row;
+}

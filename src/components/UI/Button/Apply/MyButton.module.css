@@ -1,0 +1,18 @@
+.myBtn{
+    background-color: #0091EA;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+}
+
+.myBtn:hover {
+    background-color: #0081D1;
+}
+
+.myBtn:disabled{
+    background-color: #04A0FF;
+    color: #CFD8DC;
+}

@@ -1,0 +1,24 @@
+.myInpt{
+    border-radius: 3px;
+    color: #ECEFF1;
+    height: 36px;
+    width: 250px;
+    border: 1.5px solid #ECEFF1; 
+    padding: 10px;
+    margin: 15px;
+    outline-color: #04A0FF;
+}
+
+.myInpt:hover{
+    background-color: #CFD8DC;
+}
+
+.myInpt:focus{
+    caret-color: #04A0FF;
+    color: #37474F;
+}
+
+.myInpt:valid{
+    color: #37474F;
+    border-color: #CFD8DC;
+}

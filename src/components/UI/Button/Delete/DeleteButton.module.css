@@ -1,0 +1,18 @@
+.MyDlt{
+    background-color: #FF1744;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+}
+
+.MyDlt:hover {
+    background-color: #E3002C;
+}
+
+.MyDlt:disabled{
+    background-color: #FF4A6D;
+    color: #CFD8DC;
+}

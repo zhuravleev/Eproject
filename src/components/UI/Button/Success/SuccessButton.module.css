@@ -1,0 +1,18 @@
+.MyScs{
+    background-color: #00BFA5;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+}
+
+.MyScs:hover {
+    background-color: #00A68F;
+}
+
+.MyScs:disabled{
+    background-color: #00D9BB;
+    color: #CFD8DC;
+}

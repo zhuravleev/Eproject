@@ -1,0 +1,30 @@
+.MyNvBr{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyList{
+    display: flex;
+}
+
+.MyLink{
+    text-decoration: none;
+    color: #546E7A;
+    font-weight: 500;
+}
+
+.MyLink:hover{
+    color: #78909C;
+}
+
+.MyList li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.MyLogo{
+    width: 100px;
+}

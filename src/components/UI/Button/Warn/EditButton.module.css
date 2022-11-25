@@ -1,0 +1,18 @@
+.MyEdt{
+    background-color: #FF9100;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+}
+
+.MyEdt:hover {
+    background-color: #E68300;
+}
+
+.MyEdt:disabled{
+    background-color: #FF9C1A;
+    color: #CFD8DC;
+}
